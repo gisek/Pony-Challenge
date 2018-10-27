@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSharpFunctionalExtensions" Version="1.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PonyChallenge.Common\PonyChallenge.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MoreLinq">
+      <HintPath>C:\Users\Andrzej\.nuget\packages\morelinq\3.0.0\lib\netstandard2.0\MoreLinq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
